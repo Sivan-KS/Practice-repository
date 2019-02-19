@@ -1,0 +1,77 @@
+body {
+  color: rgb(65,75,86);
+  font-family: arial;
+  margin: 0px;
+}
+
+div {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h1{
+  font-size: 5em;  /* This is the font size*/
+}
+h2{
+  font-size: 2.5em;
+}
+img{
+  display: flex; /*allows for flexible placing*/
+  padding: 20px; /*sets padding size on all 4 sides of the element*/
+  margin: 0 auto;
+  border-radius: 130px; /*adds corners to the radius*/
+}
+
+p{
+  width: 40%; /*makes it 40% of the width of the parent element*/
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+a{
+  color: rgb(0,0,0);
+}
+
+ol{
+  list-style: none;
+  padding: 0; /* padding defines the bit within the border, margin is outside of margin*/
+margin-bottom: 10%; /* only targetting bottom margin*/
+font-size: 3em;
+display: flex;
+justify-content: space-evenly;
+}
+
+li#lower {
+  margin-top: 7%;
+}
+
+li#lowest{
+  margin-bottom: 14%;
+}
+
+div.contrast {
+  background-color: rgb(7,76,188);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }/*classes used a "." ids use a #*/
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+
+li:hover{
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
